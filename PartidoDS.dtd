@@ -1,0 +1,11 @@
+<!ELEMENT LigaBBVAMX (Partido+)>
+        <!ELEMENT Partido (Fecha, Equipos, Marcador, Goles)>
+        <!ELEMENT Fecha (#PCDATA)>
+        <!ELEMENT Equipos (EquipoLocal, EquipoVisitante)>
+        <!ELEMENT EquipoLocal (#PCDATA)>
+        <!ELEMENT EquipoVisitante (#PCDATA)>
+        <!ELEMENT Marcador (#PCDATA)>
+        <!ELEMENT Goles (Gol+)>
+        <!ELEMENT Gol (Jugador, Minuto)>
+        <!ELEMENT Jugador (#PCDATA)>
+        <!ELEMENT Minuto (#PCDATA)>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE LigaBBVAMX SYSTEM "PartidoDS.dtd">
+<LigaBBVAMX>
+    <Partido>
+        <Fecha>Domingo 24 de sep</Fecha>
+        <Equipos>
+            <EquipoLocal>Toluca</EquipoLocal>
+            <EquipoVisitante>América</EquipoVisitante>
+        </Equipos>
+        <Marcador> 1-1 </Marcador>
+        <Goles>
+            <Gol>
+                <Jugador>Maximiliano Araujo</Jugador>
+                <Minuto>54</Minuto>
+            </Gol>
+            <Gol>
+                <Jugador>Diego Valdés</Jugador>
+                <Minuto>25</Minuto>
+            </Gol>
+        </Goles>
+    </Partido>
+</LigaBBVAMX>
